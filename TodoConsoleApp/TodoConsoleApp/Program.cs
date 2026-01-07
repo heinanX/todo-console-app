@@ -6,9 +6,9 @@ namespace TodoConsoleApp
     {
         static void Main(string[] args)
         {
-            MenuServices menuService = new MenuServices();
+            MenuServices app = new MenuServices();
 
-            menuService.RunApp();
+            app.RunApp();
         }
     }
 }
